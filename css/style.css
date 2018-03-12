@@ -21,7 +21,7 @@ body {
 }
 
 #title h2 {
-	font-size: 1.4vw;
+	font-size: 1.3vw;
 	letter-spacing: 2.4px;
 	width: 60vw;
 	text-align: center;
@@ -39,4 +39,30 @@ body {
 	padding-bottom: 30px;
 	font-family: 'Share Tech Mono', monospace;
     font-size: 1.2vw;
+}
+
+#rules {
+	width: 60vw;
+	margin: 0 auto;
+	margin-top: 35px;
+	font-size: 1.08vw;
+	font-family: 'Share Tech Mono', monospace;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+.cell {
+	width: 100%;
+	padding: 10px 10px;
+	margin-bottom: 2px;
+	background-color:rgba(50, 50, 50, 0.2);
+}
+
+.header {
+	font-size: 1.15vw;
+	background-color:rgba(50, 50, 50, 0.45);
+}
+
+.last {
+	margin-bottom: 30px;
 }
