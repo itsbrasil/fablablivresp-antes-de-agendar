@@ -52,13 +52,13 @@ body {
 }
 
 .cell {
-	width: 100%;
-	padding: 10px 10px;
+	padding: 14px;
 	margin-bottom: 2px;
 	background-color:rgba(50, 50, 50, 0.2);
 }
 
 .header {
+	padding: 10px 14px;
 	font-size: 1.15vw;
 	background-color:rgba(50, 50, 50, 0.45);
 }
