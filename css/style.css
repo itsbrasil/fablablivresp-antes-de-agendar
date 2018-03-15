@@ -1,0 +1,88 @@
+body {
+	background: #81fbad url(../img/overlay.png);
+	color: #fff;
+}
+
+#title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 12vh;
+
+}
+
+#title h1 {
+	margin: 0;
+	margin-bottom: 0.5vw;
+	font-size: 6.5vw;
+	line-height: 6.5vw;
+}
+
+#title h2 {
+	font-size: 1.3vw;
+	letter-spacing: 2.4px;
+	width: 60vw;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 2.5vw;
+	font-weight: 400;
+
+}
+
+#description {
+	width: 60vw;
+	text-align: justify;
+	margin: 0 auto;
+	border-bottom: 1px #efefef solid;
+	padding-bottom: 30px;
+	font-family: 'Share Tech Mono', monospace;
+    font-size: 1.2vw;
+}
+
+#rules {
+	width: 60vw;
+	margin: 0 auto;
+	margin-top: 35px;
+	font-size: 1.08vw;
+	font-family: 'Share Tech Mono', monospace;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+.frame {
+	padding: 14px;
+	margin-bottom: 2px;
+	background-color:rgba(50, 50, 50, 0.2);
+}
+
+.row {
+	width: 100%;
+	min-height: 30px;
+	margin-bottom: 2px;
+	background-color:rgba(50, 50, 50, 0.3);
+}
+
+.cell {
+	width: calc(33.333% - 28px); /*28px é referente ao padding-left + padding-right*/
+	padding: 10px 14px;
+	font-size: 1.15vw;
+	text-align: center;
+	display: inline-block;
+	background-color:rgba(50, 50, 50, 0.04);
+}
+
+.left {
+	background-color:rgba(50, 50, 50, 0.25);
+}
+
+.header {
+	padding: 10px 14px;
+	font-size: 1.15vw;
+	background-color:rgba(50, 50, 50, 0.45);
+}
+
+.last {
+	margin-bottom: 30px;
+}
