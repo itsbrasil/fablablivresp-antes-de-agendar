@@ -51,10 +51,30 @@ body {
 	margin-bottom: 100px;
 }
 
-.cell {
+.frame {
 	padding: 14px;
 	margin-bottom: 2px;
 	background-color:rgba(50, 50, 50, 0.2);
+}
+
+.row {
+	width: 100%;
+	min-height: 30px;
+	margin-bottom: 2px;
+	background-color:rgba(50, 50, 50, 0.3);
+}
+
+.cell {
+	width: calc(33.333% - 28px); /*28px é referente ao padding-left + padding-right*/
+	padding: 10px 14px;
+	font-size: 1.15vw;
+	text-align: center;
+	display: inline-block;
+	background-color:rgba(50, 50, 50, 0.04);
+}
+
+.left {
+	background-color:rgba(50, 50, 50, 0.25);
 }
 
 .header {
