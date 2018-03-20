@@ -8,7 +8,7 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<title>ANTES DE AGENDAR</title>
 	</head>
-	
+
 	<body>
 		<div id="title">
 			<h1><b>ANTES DE AGENDAR</b></h1>
@@ -32,21 +32,9 @@
 
 			<div class="frame header">5. ORIENTAÇÕES OBRIGATÓRIAS POR MÁQUINA</div>
 			<div id="buttons">
-				<div id="Laser" class="machineButton selected">CORTE A LASER</div><div id="3DPrinter" class="machineButton">IMPRESSORA 3D</div><div id="CNCRouter" class="machineButton">FRESADORA CNC</div><div id="Carpentry" class="machineButton">MARCENARIA</div>
+				<div id="laser" class="machineButton">CORTE A LASER</div><div id="3dprinter" class="machineButton">IMPRESSORA 3D</div><div id="cncrouter" class="machineButton">FRESADORA CNC</div><div id="carpentry" class="machineButton">MARCENARIA</div>
 			</div>
-			<div class="frame last">
-				- O arquivo para corte precisa estar em AI, SVG ou DXF.
-				<br>
-				- Tamanho da máquina é de 100x80cm.
-				<br>
-				- Traga o seu próprio material (com sobra para testes e correção de eventuais erros).
-				<br>
-				- Corte em preto, gravação em azul e gravações adicionais em vermelho e verde.
-				<br>
-				- É necessário acompanhar seu projeto sendo realizado. O Fab Lab Livre SP não é uma gráfica.
-				<br>
-				- Após o uso, deixe a máquina desligada, limpa e o local organizado.
-			</div>
+			<div id="machineText" class="frame last"></div>
 			<div class="frame header">6. COMO UTILIZAR OS EQUIPAMENTOS DOS LABS?</div>
 			<div class="frame header">AGENDAMENTO</div>
 			<div class="frame">São dias da semana em que os usuários podem agendar um horário de 3 horas para a utilização de qualquer máquina. O agendamento é ideal para quem quer garantia de utilização com data e hora específicos. O agendamento está sujeito à disponibilidade de horário do laboratório, em meio a todas as outras atividades que são realizadas dentro dele, como cursos, visitas, etc.</div>
@@ -86,7 +74,7 @@
 			<br><br>
 			5.5.2. Os projetos elaborados e impressos/fresados/cortados dentro das dependências dos laboratórios de fabricação digital com base no item 5.5 terão de ser previamente aprovados pelo funcionário do laboratório, cuja análise se basear nos objetivos da rede pública ora instituída, bem como na inocorrência de ofensividade aos elaboradores e à população em geral, ficando vedada a reprodução em série, para fins comerciais.</div>
 
-			<div class="frame header">8. E-MAIL E ENDEREÇO DOS LABORATÓRIOS [PARA AGENDAMENTOS E DÚVIDAS]</div>
+			<div class="frame header">8. E-MAIL DOS LABORATÓRIOS [PARA AGENDAMENTOS E DÚVIDAS]</div>
 			<div class="frame last">
 				<span class="bold">Fab Lab Olido Cibernarium [Galera Olido]</span><br>
 				fablab.olido@itsbrasil.org.br<br><br>
@@ -114,7 +102,8 @@
 				fablab.3pontes@itsbrasil.org.br
 			</div>
 		</div>
-	</body>
 
-	<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
 </html>
