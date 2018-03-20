@@ -4,23 +4,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900,400" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<title>ANTES DE AGENDAR</title>
 	</head>
-	
+
 	<body>
 		<div id="title">
-			<h1>ANTES DE AGENDAR</h1>
-			<h2>ALGUMAS REGRAS E RECOMENDAÇÕES BÁSICAS PARA O [BOM] USO DE EQUIPAMENTOS E O FORTALECIMENTO DA HARMONIA NOS LABORATÓRIOS DO FAB LAB LIVRE SP</h2>
+			<h1><b>ANTES DE AGENDAR</b></h1>
+			<h2>ALGUMAS REGRAS E RECOMENDAÇÕES BÁSICAS PARA O [BOM] USO DE EQUIPAMENTOS E O FORTALECIMENTO DA HARMONIA NOS LABORATÓRIOS DO <span class="bold">FAB LAB LIVRE SP</span></h2>
 		</div>
-
-		<div id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu dui sagittis, tincidunt odio et, posuere mauris. Maecenas suscipit faucibus erat, et iaculis libero sollicitudin ac. Aliquam id quam et justo auctor efficitur ut in libero. Vestibulum at facilisis purus, id pretium est. Curabitur eget lacus non massa ultrices fringilla. Nulla facilisi. Proin eget lacus quam. Cras malesuada tincidunt est, a eleifend sem euismod vel. Nam tempus pharetra urna, dignissim condimentum nunc cursus quis. Nam volutpat iaculis nisi, id sodales est venenatis ac. Morbi a pellentesque orci.</div>
 
 		<div id="rules">
 			<div class="frame header">1. RESPEITO É [MUITO] IMPORTANTE</div>
-			<div class="frame last">O laboratóios da rede Fab Lab Livre SP são espaços colaborativos, onde a harmonia entre equipe e comunidade de usuários é essencial. Ninguém é mais importante que ninguém, tampouco a individualidade deve subordinar a coletividade. O respeito a todos os envolvidos e ao patrimônio público é fundamental.</div>
+			<div class="frame last">O laboratórios da rede Fab Lab Livre SP são espaços colaborativos, onde a harmonia entre equipe e comunidade de usuários é essencial. Ninguém é mais importante que ninguém, tampouco a individualidade deve subordinar a coletividade. O respeito a todos os envolvidos e ao patrimônio público é fundamental.</div>
 
 			<div class="frame header">2. VOCÊ É PROTAGONISTA DO SEU PRÓPRIO PROJETO</div>
 			<div class="frame last">A proposta do Fab Lab Livre SP não é terceirizar a criação e a fabricação de projetos. A equipe de técnicos e técnicas está disponível para dar orientações, mas é o usuário quem deve assumir o protagonismo no desenvolvimento dos próprios protótipos. As dificuldades sempre existem e, caso precise aprender alguma temática, os cursos da rede [todos gratuitos] são caminhos possíveis em que experimentar e [eventualmente] errar fazem parte da experiência.</div>
@@ -31,10 +28,13 @@
 			Desta maneira, a liberação do desenvolvimento do projeto está sujeita ao cadastro e aprovação dele no nosso site. Cadastre o seu projeto em www.fablablivresp.art.br antes de ir ao lab.</div>
 
 			<div class="frame header">4. TRAGA O SEU PRÓPRIO MATERIAL</div>
-			<div class="frame last">Para desenvolver um projeto, é necessário trazer o seu próprio material, assim como os arquivos prontos nas corretas extensões e com o projeto já aprovado no nosso site. O Fab Lab Livre SP não pode cobrir os custos de protótipos com interesse individual, mas pode oferecer o uso gratuito de máquinas e o auxílio técnico da equipe no desenvolvimento dele. Considere no seu planejamento trazer material com sobra para a realização de testes e correção de eventuais erros que podem acontecer no processo de desenvolvimento.</div>
+			<div class="frame last">Para desenvolver um projeto, é necessário trazer o seu próprio material, assim como os arquivos prontos nas corretas extensões e com o projeto já aprovado no nosso site. O Fab Lab Livre SP não pode cobrir os custos de protótipos com interesse individual, mas pode oferecer o uso gratuito de máquinas e o auxílio técnico da equipe no desenvolvimento dele. Considere no seu planejamento <span class="bold">trazer material com sobra</span> para a realização de testes e correção de eventuais erros que podem acontecer no processo de desenvolvimento.</div>
 
-			<div class="frame header last">5. ORIENTAÇÕES OBRIGATÓRIAS POR MÁQUINA</div>
-
+			<div class="frame header">5. ORIENTAÇÕES OBRIGATÓRIAS POR MÁQUINA</div>
+			<div id="buttons">
+				<div id="laser" class="machineButton">CORTE A LASER</div><div id="3dprinter" class="machineButton">IMPRESSORA 3D</div><div id="cncrouter" class="machineButton">FRESADORA CNC</div><div id="carpentry" class="machineButton">MARCENARIA</div>
+			</div>
+			<div id="machineText" class="frame last"></div>
 			<div class="frame header">6. COMO UTILIZAR OS EQUIPAMENTOS DOS LABS?</div>
 			<div class="frame header">AGENDAMENTO</div>
 			<div class="frame">São dias da semana em que os usuários podem agendar um horário de 3 horas para a utilização de qualquer máquina. O agendamento é ideal para quem quer garantia de utilização com data e hora específicos. O agendamento está sujeito à disponibilidade de horário do laboratório, em meio a todas as outras atividades que são realizadas dentro dele, como cursos, visitas, etc.</div>
@@ -53,7 +53,7 @@
 					<div class="cell left">TERÇA</div><div class="cell">---</div><div class="cell">---</div>
 				</div>
 				<div class="row">
-					<div class="cell left">QUARTA</div><div class="cell">Fab Lab Vila Itororó</div><div class="cell">---</div>
+					<div class="cell left">QUARTA</div><div class="cell">FAB LAB VILA ITORORÓ</div><div class="cell">---</div>
 				</div>
 				<div class="row">
 					<div class="cell left">QUINTA</div><div class="cell">---</div><div class="cell">---</div>
@@ -63,48 +63,47 @@
 				</div>
 				<div class="row">
 					<div class="cell left">SÁBADO</div><div class="cell">FAB LAB CEU HELIÓPOLIS</div><div class="cell">---</div>
-				</div>	
+				</div>
+				<span style="font-size: 0.9vw;">* Os laboratórios da rede Fab Lab Livre SP não abrem na primeira segunda-feira de cada mês.</span>
 			</div>
-
 
 			<div class="frame header">7. DÚVIDA: POSSO FABRICAR MEU PROJETO EM QUANTIDADE/SÉRIE?</div>
 			<div class="frame last">A reposta é NÃO. A proposta do Fab Lab Livre SP está relacionada à criação de espaços colaborativos onde empoderamento tecnológico, prototipagem, empreendedorismo inovador e processos educacionais se relacionam para guiar o desenvolvimento de atividades e projetos. Do contrário, não é objetivo da política pública transformar esses espaços em "gráficas rápidas" para fabricação digital de souvernirs, por exemplo.
 			<br><br>
 			Do ponto de vista jurídico, segundo o TERMO DE CONVÊNIO Nº 002/2015-SES-CCCD no PROCESSO ADMINISTRATIVO Nº 2014-0.279.716-4 que rege a dinâmica do Fab Lab Livre SP atualmente:
 			<br><br>
-			5.5.2. Os projetos elaborados e impressos/fresados/cortados dentro das dependências dos laboratórios de fabricação digital com base no item 5.5 terão de ser previamente aprovados pelo funcionário do laboratório, cuja análise se basear nos objetivos da rede pública ora instituída, bem como na inocorrência de ofensividade aos elaboradores e à população em geral, ficando vedada a reprodução em série, para fins comerciais.
-
-			</div>
+			5.5.2. Os projetos elaborados e impressos/fresados/cortados dentro das dependências dos laboratórios de fabricação digital com base no item 5.5 terão de ser previamente aprovados pelo funcionário do laboratório, cuja análise se basear nos objetivos da rede pública ora instituída, bem como na inocorrência de ofensividade aos elaboradores e à população em geral, ficando vedada a reprodução em série, para fins comerciais.</div>
 
 			<div class="frame header">8. E-MAIL DOS LABORATÓRIOS [PARA AGENDAMENTOS E DÚVIDAS]</div>
 			<div class="frame last">
-				Fab Lab Olido Cibernarium [Galera Olido]<br>
+				<span class="bold">Fab Lab Olido Cibernarium [Galera Olido]</span><br>
 				fablab.olido@itsbrasil.org.br<br><br>
-				Fab Lab Cidade Tiradentes [Centro de Formação Cultural Cidade Tiradentes]<br>
+				<span class="bold">Fab Lab Cidade Tiradentes [Centro de Formação Cultural Cidade Tiradentes]</span><br>
 				fablab.tiradentes@itsbrasil.org.br<br><br>
-				Fab Lab CEU Heliópolis<br>
+				<span class="bold">Fab Lab CEU Heliópolis</span><br>
 				fablab.heliopolis@itsbrasil.org.br<br><br>
-				Fab Lab Chácara do Jóckey<br>
+				<span class="bold">Fab Lab Chácara do Jóckey</span><br>
 				fablab.jockey@itsbrasil.org.br<br><br>
-				Fab Lab Centro Cultural São Paulo<br>
+				<span class="bold">Fab Lab Centro Cultural São Paulo</span><br>
 				fablab.ccsp@itsbrasil.org.br<br><br>
-				Fab Lab Vila Itororó<br>
+				<span class="bold">Fab Lab Vila Itororó</span><br>
 				fablab.itororo@itsbrasil.org.br<br><br>
-				Fab Lab Espaço São Joaquim<br>
+				<span class="bold">Fab Lab São Espaço Joaquim Guarapiranga</span><br>
 				fablab.saoluis@itsbrasil.org.br<br><br>
-				Fab Lab CEU Anhanguera<br>
+				<span class="bold">Fab Lab CEU Anhanguera</span><br>
 				fablab.anhanguera@itsbrasil.org.br<br><br>
-				Fab Lab Centro Cultural da Juventude<br>
+				<span class="bold">Fab Lab Centro Cultural da Juventude</span><br>
 				fablab.ccj@itsbrasil.org.br<br><br>
-				Fab Lab Penha [Centro Cultural da Penha]<br>
+				<span class="bold">Fab Lab Penha [Centro Cultural da Penha]</span><br>
 				fablab.penha@itsbrasil.org.br<br><br>
-				Fab Lab Itaquera [Casa da Memória de Itaquera]<br>
+				<span class="bold">Fab Lab Itaquera [Casa da Memória de Itaquera]</span><br>
 				fablab.itaquera@itsbrasil.org.br<br><br>
-				Fab Lab CEU Três Pontes<br>
+				<span class="bold">Fab Lab CEU Três Pontes</span><br>
 				fablab.3pontes@itsbrasil.org.br
 			</div>
 		</div>
-	</body>
 
-	<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
 </html>
