@@ -99,6 +99,34 @@ a {
 	display: inline-block;
 	background-color:rgba(50, 250, 50, 0.04);
 }
+
 .selected {
 	background-color:rgba(50, 50, 50, 0.2);
+}
+
+@media screen and (max-aspect-ratio: 9/10) {
+	#title {
+		margin-top: 30px;
+	}
+
+	#title h1 {
+		font-size: 7.5vw;
+		letter-spacing: 2.5px;
+	}
+
+	#rules {
+		width: 75vw;
+	}
+
+	.header {
+		padding: 4px;
+	}
+
+	.frame {
+		padding: 4px;
+	}
+
+	.last {
+		margin-bottom: 10px;
+	}
 }
