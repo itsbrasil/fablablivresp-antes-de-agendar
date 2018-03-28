@@ -1,3 +1,9 @@
+html {
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
 body {
 	font-family: 'Share Tech Mono', monospace;
 	background: #81fbad url(../img/overlay.png);
@@ -46,7 +52,7 @@ a {
 	width: 60vw;
 	margin: 0 auto;
 	margin-top: 2.5vw;
-	font-size: 1.18vw;
+	font-size: 1.3vw;
 	padding-top: 3vw;
 	margin-bottom: 100px;
 	text-align: justify;
@@ -128,7 +134,7 @@ a {
 
 	#rules {
 		width: 82vw;
-		font-size: 3vw;
+		font-size: 3.4vw;
 		line-height: 3.6vw;
 		margin-bottom: 10vw;
 		margin-top: 3.5vw;
