@@ -1,5 +1,5 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Share Tech Mono', monospace;
 	background: #81fbad url(../img/overlay.png);
 	color: #fff;
 }
@@ -10,7 +10,7 @@ a {
 }
 
 .bold {
-	font-weight: 900;
+	background-color: rgba(50, 50, 50, 0.45);
 }
 
 .upper {
@@ -22,6 +22,7 @@ a {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 12vh;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #title h1 {
@@ -45,22 +46,26 @@ a {
 	width: 60vw;
 	margin: 0 auto;
 	margin-top: 2.5vw;
-	font-size: 1.2vw;
+	font-size: 1.3vw;
 	padding-top: 3vw;
 	margin-bottom: 100px;
 	text-align: justify;
 	border-top: 1px #fff solid;
+
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 .frame {
-	padding: 16px 24px 20px 24px;
+	padding: 18px 24px 20px 24px;
 	margin-bottom: 2px;
 	background-color:rgba(50, 50, 50, 0.2);
 }
 
 .row {
 	width: 100%;
-	min-height: 30px;
+	display: inline-flex;
 	margin-bottom: 2px;
 	background-color:rgba(50, 50, 50, 0.3);
 }
@@ -70,7 +75,9 @@ a {
 	padding: 10px 14px;
 	font-size: 1.15vw;
 	text-align: center;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color:rgba(50, 50, 50, 0.04);
 }
 
@@ -80,28 +87,30 @@ a {
 
 .header {
 	padding: 10px 14px;
-	font-size: 1.2vw;
-	font-weight: 900;
+	font-size: 1.25vw;
 	background-color:rgba(50, 50, 50, 0.45);
 }
 
 .last {
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 
 .machineButton {
 	width: calc(25% - 28px	);
 	padding: 10px 14px;
-	font-size: 1.2vw;
-	font-weight: 900;
+	font-size: 1.25	vw;
 	text-align: center;
 	cursor: pointer;
 	display: inline-block;
-	background-color:rgba(50, 250, 50, 0.04);
+	background-color: rgba(50, 50, 50, 0.08);
 }
 
 .selected {
 	background-color:rgba(50, 50, 50, 0.2);
+}
+
+#observation {
+	font-size: 1.18vw;
 }
 
 @media screen and (max-aspect-ratio: 9/10) {
@@ -118,12 +127,13 @@ a {
 	#title h2 {
 		letter-spacing: 1.2px;
 		width: 82vw;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	#rules {
 		width: 82vw;
-		font-size: 2.2vw;
+		font-size: 3.4vw;
+		line-height: 4vw;
 		margin-bottom: 10vw;
 		margin-top: 3.5vw;
 		padding-top: 4vw;
@@ -135,17 +145,25 @@ a {
 	}
 
 	.header {
+		font-size: 3vw;
 		padding: 4px 8px;
-		font-size: 2.2vw;
 	}
 
 	.last {
-		margin-bottom: 14px;
+		margin-bottom: 20px;
 	}
 
 	.machineButton {
 		padding: 5px;
 		font-size: 2.2vw;
 		width: calc(25% - 10px);
+	}
+
+	.cell {
+		font-size: 2.2vw;
+	}
+
+	#observation {
+		font-size: 2.7vw;
 	}
 }
