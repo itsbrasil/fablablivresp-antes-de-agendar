@@ -1,1 +1,1 @@
-# fablablivresp-antes-de-agendar
+# Fab Lab Livre SP // Regras de Agendamento
