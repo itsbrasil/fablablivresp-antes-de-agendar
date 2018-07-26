@@ -1,12 +1,22 @@
 body {
 	font-family: 'Share Tech Mono', monospace;
-	background: #81fbad url(../img/overlay.png);
+	background: #b2b2b2 url(../img/overlay.png);
 	color: #fff;
 }
 
 a {
 	text-decoration: none;
 	color: #fff;
+}
+
+#fablablivresp {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#fablablivresp img {
+	height: 6vw;
 }
 
 .bold {
@@ -27,7 +37,7 @@ a {
 
 #title h1 {
 	margin: 0;
-	margin-bottom: 0.5vw;
+	margin-bottom: 16px;
 	font-size: 6.5vw;
 	font-weight: 900;
 	line-height: 6.5vw;
@@ -35,8 +45,9 @@ a {
 
 #title h2 {
 	font-size: 1.3vw;
+	font-family: 'Share Tech Mono', monospace;
 	letter-spacing: 2.4px;
-	width: 60vw;
+	width: 65vw;
 	text-align: center;
 	margin: 0 auto;
 	font-weight: 400;
@@ -112,6 +123,12 @@ a {
 #observation {
 	font-size: 1.18vw;
 }
+
+@media screen and (max-aspect-ratio: 9/10) {
+
+	#fablablivresp {
+		display: none;
+	}
 
 @media screen and (max-aspect-ratio: 4/3) {
 	#title {
